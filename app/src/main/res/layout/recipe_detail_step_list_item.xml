@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/recipe_step_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_medium">
+
+        <TextView
+            android:id="@+id/steps_number"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/text_large"
+            tools:text="0.0" />
+
+        <TextView
+            android:id="@+id/steps_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="63dp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="16sp"
+            tools:text="Recipe Intro" />
+
+        <ImageView
+            android:id="@+id/steps_play_btn"
+            android:layout_width="34dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/next_button"
+            app:srcCompat="@drawable/ic_right_arrow" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SmartRecipes</string>
+
+    <string name="servings">Servings: %d</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="no_connection">No Connection</string>
+    <string name="request_cancel">Request Cancel</string>
+    <string name="widget_key">widget key</string>
+    <string name="addedHomeScreen">Added to HomeScreen </string>
+    <string name="noData">NO DATA AVAILABLE AT THE MOMENT</string>
+    <string name="step_title">Step %d</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="right_arrow">Right Arrow</string>
+    <string name="left_arrow">Left Arrow</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="ingredient_list">Ingredient list</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="next_button">Next Button</string>
+    <string name="recipe_logo">Recipe Logo</string>
+</resources>
